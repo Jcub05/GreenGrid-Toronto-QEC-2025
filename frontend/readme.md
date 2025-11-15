@@ -2,6 +2,10 @@
 
 An interactive web application for visualizing Toronto GeoJSON data with zoom and pan capabilities.
 
+
+run using: python -m http.server 8000
+
+
 ## Features
 
 - Interactive map view using Leaflet.js
