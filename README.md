@@ -1,7 +1,5 @@
-<div align="center">
+<div align="left">
   <img src="frontend/Greengrid_Toronto_Logo.png" alt="GreenGrid Toronto Logo" width="300">
-  
-  # GreenGrid Toronto
   
   **AI-Powered Urban Forestry Planning System**
 </div>
