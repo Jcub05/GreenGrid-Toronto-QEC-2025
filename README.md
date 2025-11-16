@@ -16,13 +16,11 @@ An intelligent tree planting prioritization system that uses machine learning to
 - [Features](#features)
 - [Quick Start](#quick-start)
 - [How It Works](#how-it-works)
-- [Project Structure](#project-structure)
 - [Data Sources](#data-sources)
 - [Model Performance](#model-performance)
 - [Usage Guide](#usage-guide)
 - [Technologies](#technologies)
 - [Team](#team)
-- [License](#license)
 
 ---
 
@@ -158,43 +156,6 @@ Interactive map built with Leaflet.js:
 - Click any area for detailed scores
 - Switch between different metrics
 - Responsive design for mobile/desktop
-
----
-
-## 📁 Project Structure
-
-```
-QEC-2025-Team2/
-├── data/
-│   ├── raw/                     # Original datasets (not in repo)
-│   └── processed/
-│       ├── features.csv         # ML training features (3,702 × 8)
-│       ├── target.csv           # ML training targets
-│       ├── toronto_with_predictions.geojson  # Web-ready map data
-│       └── scaler.pkl           # Feature scaler for production
-│
-├── data_preprocessing/
-│   └── preprocess_data.py       # Main ETL pipeline
-│
-├── ml_model/
-│   ├── train_model.py           # Random Forest training script
-│   ├── tree_priority_model.pkl  # Trained model (20 MB)
-│   ├── feature_importance.csv   # Feature rankings
-│   └── all_predictions.csv      # Priority scores for all 3,702 DAs
-│
-├── visualization/
-│   ├── add_predictions_to_geojson.py  # Merge predictions into map
-│   └── visualize_map.py         # Generate static choropleth
-│
-├── frontend/
-│   ├── index.html               # Interactive web map
-│   ├── Greengrid_Toronto_Logo.png
-│   └── toronto_with_predictions.geojson
-│
-├── validate_data.py             # Data quality checks
-├── TECHNICAL_REPORT.md          # Detailed technical documentation
-└── README.md                    # This file
-```
 
 ---
 
