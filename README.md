@@ -1,6 +1,10 @@
-# 🌳 GreenGrid Toronto
-
-**AI-Powered Urban Forestry Planning System**
+<div align="center">
+  <img src="frontend/Greengrid_Toronto_Logo.png" alt="GreenGrid Toronto Logo" width="300">
+  
+  # GreenGrid Toronto
+  
+  **AI-Powered Urban Forestry Planning System**
+</div>
 
 An intelligent tree planting prioritization system that uses machine learning to identify optimal locations for urban tree planting across Toronto's 3,702 neighborhoods, balancing heat mitigation, environmental justice, and community access.
 
